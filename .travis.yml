@@ -1,20 +1,14 @@
 language: minimal
-# language: node_js
-# node_js: node
 
-# Install Hugo
 install:
   - url=$(curl -s https://api.github.com/repos/gohugoio/hugo/releases/latest | sed -r -n '/browser_download_url/{/Linux-64bit.deb/{s@[^:]*:[[:space:]]*"([^"]*)".*@\1@g;p;q}}')
   - echo $url
   - curl -OLkSs $url
   - sudo dpkg -i hugo*.deb
-  # - npm install -g postcss-cli
-  # - npm install -g autoprefixer
-  # - npm audit fix
 
 script:
   - hugo --minify
-  # - echo 'lucianozago.com' > public/CNAME
+  - echo 'gtmdash.io' > public/CNAME
 
 deploy:
   provider: pages
