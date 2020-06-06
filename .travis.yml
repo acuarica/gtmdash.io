@@ -1,6 +1,6 @@
-# language: minimal
-language: node_js
-node_js: node
+language: minimal
+# language: node_js
+# node_js: node
 
 # Install Hugo
 install:
@@ -13,7 +13,7 @@ install:
   # - npm audit fix
 
 script:
-  - hugo
+  - hugo --minify
   # - echo 'lucianozago.com' > public/CNAME
 
 deploy:
