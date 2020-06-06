@@ -6,6 +6,7 @@ install:
   # - echo $url
   # - curl -OLkSs $url
   # - sudo dpkg -i hugo*.deb
+  - sudo apt install linuxbrew-wrapper
   - brew install hugo
 
 script:
