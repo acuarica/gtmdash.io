@@ -12,7 +12,6 @@ script:
   - hugo
   # - echo 'lucianozago.com' > public/CNAME
 
-# Deploy to GitHub pages
 deploy:
   provider: pages
   skip_cleanup: true
