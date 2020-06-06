@@ -2,13 +2,10 @@ language: minimal
 
 # Install Hugo
 install:
-  # - url=$(curl -s https://api.github.com/repos/gohugoio/hugo/releases/latest | sed -r -n '/browser_download_url/{/Linux-64bit.deb/{s@[^:]*:[[:space:]]*"([^"]*)".*@\1@g;p;q}}')
-  # - echo $url
-  # - curl -OLkSs $url
-  # - sudo dpkg -i hugo*.deb
-  - sudo apt update
-  - sudo apt install -y linuxbrew-wrapper
-  - brew install hugo
+  - url=$(curl -s https://api.github.com/repos/gohugoio/hugo/releases/latest | sed -r -n '/browser_download_url/{/Linux-64bit.deb/{s@[^:]*:[[:space:]]*"([^"]*)".*@\1@g;p;q}}')
+  - echo $url
+  - curl -OLkSs $url
+  - sudo dpkg -i hugo*.deb
 
 script:
   - hugo
