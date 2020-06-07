@@ -1,6 +1,6 @@
 ---
 title: "Installation"
-weight: 3
+weight: 4
 ---
 
 To work with **gtm Dashboard** you will need **gtm** to track your time.
