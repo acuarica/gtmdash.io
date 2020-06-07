@@ -1,6 +1,6 @@
 ---
-title: "gtm Dashboard"
+title: "Git Time Metric Dashboard"
 headless: true
 ---
 
-Git Time Metric Dashboard
+An elegant desktop dashboard for [Git Time Metric](https://github.com/git-time-metric/gtm)
