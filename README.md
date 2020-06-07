@@ -3,5 +3,5 @@
 # Git Time Metric Dashboard site
 
 This is the repository for the [Git Time Metric Dashboard](https://github.com/acuarica/gtm-web) site.
-The site is built with [Hugo](https://gohugo.io/) and the [Introduction](https://themes.gohugo.io/hugo-theme-introduction/) theme.
 
+The site is built with [Hugo](https://gohugo.io/) and the [Introduction](https://themes.gohugo.io/hugo-theme-introduction/) theme.
