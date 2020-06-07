@@ -1,7 +1,7 @@
 baseURL                          = "http://example.com/"  # Your domain name. Must end with "/"
 theme                            = "introduction"
 # disqusshortname                 = ""                       # https://gohugo.io/content-management/comments
-# googleAnalytics                 = ""                       # https://gohugo.io/templates/internal/#google-analytics
+googleAnalytics                 = "UA-168747456-1"                       # https://gohugo.io/templates/internal/#google-analytics
 
 [params]
     themeStyle                   = "dark"                 # Choose "light" or "dark"
